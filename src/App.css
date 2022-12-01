@@ -4,6 +4,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+li{
+  list-style-type: none;
+}
+
+button{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.primary-btn{
+  padding: 10px 20px;
+  background-color: #31b675;
+  color:#fff;
+  font-weight: 400;
+  transition: 05s;
+}
+
+.primary-btn:hover{
+  background-color: #fff;
+  color: white;
 }
