@@ -50,3 +50,26 @@ button{
   background-color: #fff;
   color: white;
 }
+.control-btn button {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.control-btn i {
+  background-color: #31b675;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+}

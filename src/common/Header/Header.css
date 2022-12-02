@@ -1,9 +1,14 @@
+header img{
+  width: 50%;
+}
+
 header {
   padding: 40px 0 20px 0;
   background-color: #fff;
 }
 header .box {
   margin: 0 0 0 30px;
+ 
 }
 header a {
   font-size: 13px;
@@ -21,8 +26,19 @@ header h4 {
   line-height: 10px;
 }
 
-
 @media screen and (max-width: 768px) {
+
+  header img{
+    width: 100%;
+  }
+
+  header .box {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 2px;
+    width: 70%;
+    margin-right: 8px;
+  }
 
   header .container {
     flex-direction: column;
@@ -30,8 +46,8 @@ header h4 {
     align-items: center;
   }
   header .contact {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
   }
   header a {
     font-size: 13px;
