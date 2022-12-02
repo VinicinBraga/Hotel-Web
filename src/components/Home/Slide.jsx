@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 import Data from "./Data";
+import "../../images/slider1.jpg";
 
 const Slide = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -23,12 +24,12 @@ const Slide = ({ slides }) => {
         <div className="control-btn">
           <button className="prev" onClick={prevSlide}>
             <i>
-              <FaCaretLeft />
+              <FaCaretLeft className="slide-icon" />
             </i>
           </button>
           <button className="next" onClick={nextSlide}>
             <i>
-              <FaCaretRight />
+              <FaCaretRight className="slide-icon" />
             </i>
           </button>
         </div>
@@ -37,10 +38,14 @@ const Slide = ({ slides }) => {
           return (
             <div
               className={index === current ? "slide active" : "slide"}
-              key={slide.id}
+              key={slide}
             >
               {index === current && (
-                <img src={slide.image} alt={index} width="100%" />
+                <img
+                  src={require(`../../images/${slide.image}.jpg`)}
+                  alt={slide.id}
+                  width="100%"
+                />
               )}
             </div>
           );
