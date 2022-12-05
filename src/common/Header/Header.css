@@ -30,6 +30,7 @@ header h4 {
 
   header img{
     width: 100%;
+    margin-top: -5%;
   }
 
   header .box {
@@ -46,6 +47,7 @@ header h4 {
     align-items: center;
   }
   header .contact {
+    width: 95vw;
     justify-content: flex-start;
     align-items: stretch;
   }
