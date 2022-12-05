@@ -1,27 +1,47 @@
 header img{
-  width: 50%;
+  width: 90%;
 }
 
-header {
-  padding: 40px 0 20px 0;
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #fff;
+  height: 20vh;
 }
+
+header .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header .box {
-  margin: 0 0 0 30px;
- 
+  display: flex;
+  margin-left: 15px;
 }
+
 header a {
   font-size: 13px;
   color: grey;
 }
+
 header i {
-  font-size: 40px;
+  font-size: 200%;
   color: #31b675;
-  margin-right: 15px;
+  margin-right: 10px;
 }
+
 header .text {
   margin-top: 10px;
 }
+
 header h4 {
   line-height: 10px;
 }
@@ -30,7 +50,6 @@ header h4 {
 
   header img{
     width: 100%;
-    margin-top: -5%;
   }
 
   header .box {
@@ -46,8 +65,10 @@ header h4 {
     justify-content: center;
     align-items: center;
   }
+
   header .contact {
-    width: 95vw;
+    width: 100vw;
+    height: 40%;
     justify-content: flex-start;
     align-items: stretch;
   }
@@ -55,13 +76,14 @@ header h4 {
   header .title {
     display: flex;
     font-size: 13px;
-}
+  }
+
   header a {
     display: flex;
     margin-top: 5px;
     font-size: 10px;
-
   }
+  
   header i {
     font-size: 30px;
     margin-right: 5px;

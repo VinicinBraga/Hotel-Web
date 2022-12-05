@@ -5,7 +5,6 @@
 
 .slider img {
   width: 100%;
-  height: 100%;
 }
 
 .control-btn .next {
@@ -43,6 +42,7 @@
   color: white;
   cursor: pointer;
 }
+
 .control-btn i {
   background-color: #31b675;
   width: 45px;
@@ -60,6 +60,7 @@
 .prev .slide-icon{
   margin-right: 3px ;
 }
+
 .next .slide-icon{
   margin-left: 3px ;
 }
@@ -74,6 +75,7 @@
 .slide-form h2 {
   margin-top: 30px;
 }
+
 .slide-form {
   display: flex;
   flex-direction: column;
@@ -86,25 +88,29 @@
   border-radius: 5px;
   color: white;
 }
+
 .slide-form form{
   display: flex;
   flex-direction: column;
   width: 30vw;
   height: auto;
 }
+
 .slide-form input {
-  height: 5vh;
+  height: 4vh;
   padding: 5px;
   margin-top: 4%;
 }
+
 .slide-form .flex_space input:nth-child(odd) {
   margin-right: 20px;
 }
+
 .slide-form .submit {
   display: flex;
   justify-content: center;
   align-items:center;
-  font-size: large;
+  font-size: 90%;
   background: #31b675;
   color: white;
 }
@@ -115,6 +121,7 @@
     width: 30px;
     height: 30px;
   }
+
   .control-btn i {
     width: 22px;
     height: 22px;
@@ -126,22 +133,27 @@
   .slider {
     height: 65vh;
   }
+
   .slide img {
-    height: 55vh;
+   margin-top: 10%;
+   width: 100%;
+   height: 70Vh;
   }
+
   .slide-form {
-    margin-top: 27%;
+    margin-top: 10%;
     left: 5%;
     top: 32%;
     width: 90%;
-    height: 50vh;
+    height: 45vh;
     z-index: 11;
   }
+
   .slide-form .container{
     width: 80vw;
   }
+
   .slide-form form{
     width: 100%;
   }
-
 }
