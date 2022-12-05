@@ -51,3 +51,15 @@ button{
   color: white;
 }
 
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  input {
+  height: 5px;
+  }
+}

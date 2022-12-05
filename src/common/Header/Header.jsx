@@ -20,7 +20,7 @@ const Header = () => {
                 </i>
               </div>
               <div className="text">
-                <h4>Working Hours</h4>
+                <h4 className="title">Working Hours</h4>
                 <Link to="/contact">Monday - Sunday: 9.00am to 6.00</Link>
               </div>
             </div>

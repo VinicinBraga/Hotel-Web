@@ -49,8 +49,16 @@ header h4 {
     justify-content: flex-start;
     align-items: stretch;
   }
-  header a {
+
+  header .title {
+    display: flex;
     font-size: 13px;
+}
+  header a {
+    display: flex;
+    margin-top: 5px;
+    font-size: 10px;
+
   }
   header i {
     font-size: 30px;

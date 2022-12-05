@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 import Data from "./Data";
+import Form from "./Form";
 import "../../images/slider1.jpg";
 
 const Slide = ({ slides }) => {
@@ -51,6 +52,13 @@ const Slide = ({ slides }) => {
           );
         })}
       </section>
+      <setion className="slide-form">
+        <div className="container">
+          <h2>Enjoy Your Holiday</h2>
+          <span>Search and Book Hotels</span>
+          <Form />
+        </div>
+      </setion>
     </>
   );
 };
