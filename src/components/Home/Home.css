@@ -5,6 +5,9 @@
 
 .slider img {
   width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .control-btn .next {
@@ -117,6 +120,7 @@
 
 @media screen and (max-width: 768px) {
  
+
   .control-btn button {
     width: 30px;
     height: 30px;
@@ -146,7 +150,6 @@
     top: 32%;
     width: 90%;
     height: 45vh;
-    z-index: 11;
   }
 
   .slide-form .container{

@@ -2,7 +2,7 @@
   background: #222222;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 11;
   height: 10vh;
   line-height: 10vh;
 }
@@ -75,7 +75,6 @@ nav i {
     left: 0;
     opacity: 1;
     transition: 0.5s;
-    z-index: 100;
   }
   nav ul li a {
     font-weight: 400;
