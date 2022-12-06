@@ -1,115 +1,44 @@
-header img{
-  width: 60%;
-  margin-left: 2vw;
-}
-
-header .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+header {
+  padding: 40px 0 20px 0;
   background-color: #fff;
-  height: 18vh;
 }
-
-header .logo{
-  display: flex;
-  justify-content:flex-start;
-  align-items: center;
-}
-
-header .contact{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 header .box {
-  display: flex;
-  margin-left: 15px;
+  margin: 0 0 0 30px;
 }
-
 header a {
   font-size: 13px;
   color: grey;
 }
-
 header i {
-  font-size: 200%;
+  font-size: 40px;
   color: #31b675;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 15px;
 }
-
 header .text {
   margin-top: 10px;
 }
-
 header h4 {
   line-height: 10px;
 }
 
 @media screen and (max-width: 768px) {
 
-  header img{
-    width: 70%;
-  }
-
-  header .logo{
-    display: flex;
-    justify-content: center;
-    margin-top: 12vh;
-    margin-bottom: 5%;
-  }
-  
-  header .box {
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-    width: 70%;
-    margin-right: 6px;
-  }
-
   header .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   header .contact {
-    width: 100vw;
-    height: 40vh;
-    justify-content: flex-start;
-    align-items: stretch;
-  }
-
-  header .title {
-    display: flex;
-    justify-content:flex-start;
-    font-size: 13px;
-  }
-
-  header .title-small{
-    display: flex;
-    justify-content:flex-start;
-    height: 3.2vh;
-    font-size: 13px;
-  }
-
-  header .calendar-text{
-    margin-top: 10px;
-  }
-
-  header a {
-    display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    font-size: 10px;
+    align-items: center;
   }
-  
+  header a {
+    font-size: 13px;
+  }
   header i {
     font-size: 30px;
     margin-right: 5px;
     margin-top: 10px;
   }
+
 }
