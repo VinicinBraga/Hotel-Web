@@ -1,5 +1,6 @@
 header img{
-  width: 90%;
+  width: 60%;
+  margin-left: 2vw;
 }
 
 header .container {
@@ -7,12 +8,12 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   background-color: #fff;
-  height: 20vh;
+  height: 18vh;
 }
 
 header .logo{
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
 }
 
