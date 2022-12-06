@@ -21,7 +21,9 @@ const Header = () => {
               </div>
               <div className="text">
                 <h4 className="title">Working Hours</h4>
-                <Link to="/contact">Monday - Sunday: 9.00am to 6.00</Link>
+                <Link className="calendar-text" to="/contact">
+                  Monday - Sunday: 9.00am to 6.00
+                </Link>
               </div>
             </div>
             <div className="box flex_space">
@@ -31,7 +33,7 @@ const Header = () => {
                 </i>
               </div>
               <div className="text">
-                <h4>Call Us</h4>
+                <h4 className="title-small">Call Us</h4>
                 <Link to="/contact">+011 123 4567</Link>
               </div>
             </div>
@@ -42,7 +44,7 @@ const Header = () => {
                 </i>
               </div>
               <div className="text">
-                <h4>Mail Us</h4>
+                <h4 className="title-small">Mail Us</h4>
                 <Link to="/contact">info@travelapp.com</Link>
               </div>
             </div>

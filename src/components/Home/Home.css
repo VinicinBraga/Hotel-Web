@@ -119,7 +119,13 @@
 }
 
 @media screen and (max-width: 768px) {
- 
+
+  .prev{
+    margin-left: -18px;
+  }
+  .next{
+    margin-right: -18px;
+  }
 
   .control-btn button {
     width: 30px;
@@ -134,20 +140,20 @@
   .slide-icon{
     width: 6px;
   }
+
   .slider {
+    margin-top: 10vh;
     height: 65vh;
   }
 
   .slide img {
-   margin-top: 10%;
    width: 100%;
    height: 70Vh;
   }
 
   .slide-form {
-    margin-top: 10%;
+    margin-top: 8vh;
     left: 5%;
-    top: 32%;
     width: 90%;
     height: 45vh;
   }
