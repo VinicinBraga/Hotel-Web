@@ -32,30 +32,8 @@
   left: 0;
   width: 89.5%;
   height: 44vh;
-  background-color: rgba(0, 0, 0, 0.5);
 }
-.aboutCard .image::before {
-  content: "";
-  position: absolute;
-  bottom: 5%;
-  left: 10%;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 70%;
-  height: 30px;
-  border-radius: 5px;
-  z-index: -1;
-}
-.aboutCard .control-btn::before {
-  content: "";
-  position: absolute;
-  bottom: 2%;
-  left: 15%;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 60%;
-  height: 30px;
-  border-radius: 5px;
-  z-index: -1;
-}
+
 .features .flex_space {
   flex-direction: row-reverse;
 }
