@@ -1,6 +1,5 @@
 .navbar {
   background: #222222;
-  /*position: sticky;*/
   top: 0;
   z-index: 999;
   height: 10vh;
@@ -80,6 +79,7 @@ nav i {
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
+    margin-top: -2vh;
     z-index: 100;
   }
   nav ul li a {
