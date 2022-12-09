@@ -3,10 +3,12 @@ import AboutCard from "./AboutCard";
 import "./About.css";
 import { FaLongArrowAltRight, FaPlay } from "react-icons/fa";
 import aboutFeatureImage from "../../images/feature-img-1.jpg";
+import HeadTitle from "../../common/HeadTitle/HeadTitle";
 
 const About = () => {
   return (
     <>
+      <HeadTitle />
       <section className="about top">
         <div className="container">
           <AboutCard />
