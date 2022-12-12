@@ -44,3 +44,10 @@
   text-transform: capitalize;
   word-spacing: 30px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .image-heading {
+    margin-top: 20vh;
+  }
+}

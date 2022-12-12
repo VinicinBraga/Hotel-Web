@@ -11,9 +11,9 @@ const Gallery = () => {
       <section className="gallery top">
         <div className="container grid">
           {GalleryData.map((value) => {
+            console.log(GalleryData);
             return <Card images={value.img} title={value.title} />;
           })}
-          <Card />
         </div>
       </section>
     </>
