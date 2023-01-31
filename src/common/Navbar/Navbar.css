@@ -14,14 +14,14 @@ nav ul li {
 
 nav ul li a {
   color: #fff;
-  font-weight: 100;
+  font-weight: 100px;
   font-size: 15px;
   letter-spacing: 1px;
   transition: all 0.2s ease-out;
   opacity: 0.8;
 }
 nav ul li a:hover {
-  color: #31b675;
+  color: #00aeff;
 }
 
 .nav-links-mobile {
@@ -33,6 +33,7 @@ nav ul li a:hover {
 }
 nav i {
   color: #fff;
+  
 }
 .login-area {
   color: white;
@@ -46,8 +47,9 @@ nav i {
 }
 .login-area i {
   margin: 0 5px 0 15px;
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
+  font-weight: bold;
 }
 .login-area button {
   margin-left: 20px;
@@ -75,7 +77,7 @@ nav i {
     display: block;
   }
   nav ul.active {
-    background: #31b675;
+    background: #00aeff;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

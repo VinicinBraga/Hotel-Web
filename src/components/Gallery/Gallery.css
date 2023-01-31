@@ -61,7 +61,7 @@
   width: 360px;
   height: 232px;
   z-index: 3;
-  border: 1px solid #31b675;
+  border: 1px solid #00aeff;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }

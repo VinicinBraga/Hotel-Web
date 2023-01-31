@@ -1,5 +1,5 @@
 .aboutCard h4 {
-  color: #31b675;
+  color: #00aeff;
 }
 .aboutCard h1 {
   font-size: 35px;
@@ -50,7 +50,7 @@
   font-weight: bold;
 }
 .features h1 span {
-  color: #31b675;
+  color: #00aeff;
 }
 @media screen and (max-width: 768px) {
   .features .flex_space,

@@ -32,7 +32,7 @@ button {
 }
 .primary-btn {
   padding: 10px 20px;
-  background-color: #31b675;
+  background-color: #00aeff;
   color: white;
   font-weight: 400;
   transition: 0.5s;
@@ -43,7 +43,7 @@ button {
 }
 .secondary-btn {
   padding: 12px 30px;
-  background-color: #31b675;
+  background-color: #00aeff;
   color: white;
   font-weight: 400;
   font-size: 15px;
@@ -73,7 +73,7 @@ button {
   cursor: pointer;
 }
 .control-btn i {
-  background-color: #31b675;
+  background-color: #00aeff;
   width: 45px;
   height: 45px;
   margin: auto;
@@ -121,7 +121,7 @@ input {
   position: absolute;
   width: 15px;
   height: 15px;
-  background-color: #31b675;
+  background-color: #00aeff;
   border-radius: 50%;
   top: -6px;
   left: -20px;
@@ -131,7 +131,7 @@ input {
   position: absolute;
   width: 15px;
   height: 15px;
-  background-color: #31b675;
+  background-color: #00aeff;
   border-radius: 50%;
   top: -6px;
   right: -20px;
@@ -195,7 +195,7 @@ input {
   cursor: pointer;
 }
 .control-btn i {
-  background-color: #31b675;
+  background-color: #00aeff;
   width: 20px;
   height: 20px;
   margin: 1vw;
